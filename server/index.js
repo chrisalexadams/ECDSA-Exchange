@@ -5,8 +5,6 @@ const port = 3042;
 const EC = require('elliptic').ec;
 const ec = new EC('secp256k1');
 
-// localhost can have cross origin errors
-// depending on the browser you use!
 app.use(cors());
 app.use(express.json());
 
