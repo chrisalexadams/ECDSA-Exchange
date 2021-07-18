@@ -3,7 +3,6 @@ const EC = require('elliptic').ec;
 const ec = new EC('secp256k1');
 const SHA256 = require('crypto-js/sha256');
 
-
 const server = "http://localhost:3042";
 
 document.getElementById("exchange-address").addEventListener('input', ({ target: {value} }) => {
